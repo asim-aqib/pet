@@ -5,6 +5,10 @@ html {
     background-color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .top-section-wrapper {
     overflow: hidden;
     background-color: #001D37;
@@ -152,7 +156,7 @@ body {
 
 .page-section {
     background-color: #fff;
-    padding: 70px 16px;
+    padding: 60px 12px;
 }
 
 .page-section-inner {
@@ -184,7 +188,7 @@ body {
     color: #a6a6a6;
     font-size: 0.875rem;
     margin: 0;
-    padding: 0 0 65px 0;
+    padding: 450px 0 65px 0;
 }
 
 .list-of-pets {
@@ -290,5 +294,7 @@ body {
     .pet-description {
         font-size: 1rem;
     }
+
+
 
 }
